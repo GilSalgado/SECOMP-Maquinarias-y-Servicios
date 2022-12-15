@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #000000;
 }
 
 a:hover {
-  color: #fec503;
+  color: #000000;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #000000 !important;
 }
 
 h1,
@@ -47,7 +47,7 @@ h6 {
 }
 .page-section {
   padding: 100px 0;
-  color:#7c0a02;
+  color:#000000;
 
 }
 
@@ -75,12 +75,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #000000;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #000000;
   text-shadow: none;
 }
 
@@ -107,13 +107,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: red !important;
+  border-color: red !important;
   color: white;
 }
 
@@ -137,14 +137,14 @@ header .s1 {
   border-right: 50;
   position: absolute;
   left: 50%;
-  top:25%;
-  color:#420D09  ;
+  top:30%;
+  color:#000000  ;
   z-index: 1;
   font-size: 4.3vw;
 }
 
 #Subtexto_Overlay{
-  color:#420D09;
+  color:#000000;
   top: 80%;
   border-right: 50;
   position: absolute;
@@ -279,7 +279,7 @@ header .s1 {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
-  color:#7c0a02;
+  color:#000000;
 
 }
 
@@ -708,7 +708,7 @@ section#contact ::-moz-placeholder {
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #000000;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -747,9 +747,9 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: black;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #ff0000;
 }
